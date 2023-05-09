@@ -14,10 +14,10 @@ from sign_detection.judge import judge
 img_idx = 6
 print('DESKEW')
 # Deskew
-with wand_image(filename='preprocess-document/image/test{}.jpg'.format(img_idx)) as img:
+with wand_image(filename='image/test{}.jpg'.format(img_idx)) as img:
     img.deskew(0.4*img.quantum_range)
     deskew = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2BGR)
-cv2.imwrite('preprocess-document/result-preprocess/test{}deskew.jpg'.format(img_idx), deskew)
+cv2.imwrite('result-preprocess/test{}deskew.jpg'.format(img_idx), deskew)
 
 print('INCREASE CONTRAST')
 # Increase contrast
@@ -25,7 +25,7 @@ im = Image.fromarray(deskew)
 enhancer = ImageEnhance.Contrast(im)
 factor = 1.5 #increase contrast
 contrast = np.array(enhancer.enhance(factor))
-cv2.imwrite('preprocess-document/result-preprocess/test{}contrast.jpg'.format(img_idx), contrast)
+cv2.imwrite('result-preprocess/test{}contrast.jpg'.format(img_idx), contrast)
 
 print('REMOVE STAMP')
 # Remove stamp
@@ -49,7 +49,7 @@ mask = mask0+mask1
 # mask = cv2.inRange(contrast, lower, upper)
 
 remove_stamp = (remove_stamp*(np.expand_dims(cv2.bitwise_not(mask)/255, axis=2))+np.expand_dims(mask, axis=2)).astype('uint8')
-cv2.imwrite('preprocess-document/result-preprocess/test{}removestamp.jpg'.format(img_idx), remove_stamp)
+cv2.imwrite('result-preprocess/test{}removestamp.jpg'.format(img_idx), remove_stamp)
 
 print('REMOVE SIGNATURE')
 # Remove signature
@@ -67,7 +67,7 @@ for key, value in results.items():
 for idx, i in enumerate(signatures):
     region = i['cropped_region']
     remove_signature = cv2.rectangle(remove_signature, (region[0], region[1]), (region[0]+region[2], region[1]+region[3]), (255, 255, 255), -1)
-    cv2.imwrite('preprocess-document/signature/test{}-{}.jpg'.format(img_idx, idx), remove_stamp[region[1]:region[1]+region[3], region[0]:region[0]+region[2]])
-    cv2.imwrite('preprocess-document/signature/test{}-{}-mask.jpg'.format(img_idx, idx), i['cropped_mask'])
+    cv2.imwrite('signature/test{}-{}.jpg'.format(img_idx, idx), remove_stamp[region[1]:region[1]+region[3], region[0]:region[0]+region[2]])
+    cv2.imwrite('signature/test{}-{}-mask.jpg'.format(img_idx, idx), i['cropped_mask'])
 
-cv2.imwrite('preprocess-document/result-preprocess/test{}removesignature.jpg'.format(img_idx), remove_signature)
+cv2.imwrite('result-preprocess/test{}removesignature.jpg'.format(img_idx), remove_signature)

@@ -34,11 +34,11 @@ def crawl_report(link):
 
 if __name__ == "__main__":
     data_list = []
-    with open('selenium-crawler/metadata/link_data.json', 'r') as file:
+    with open('metadata/link_data.json', 'r') as file:
         links = json.load(file)
 
     for link in tqdm(links):
         data = crawl_report(link)
         data_list.append(data)
-        with open('selenium-crawler/metadata/crawl_data13.json', 'w') as f:
+        with open('metadata/crawl_data13.json', 'w') as f:
             json.dump(data_list, f)

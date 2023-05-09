@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import json
 from PyPDF2 import PdfReader
 
-img_idx=1
+img_idx=8
 # Get PDF width and height
-pdf_page = PdfReader(open("table-extraction-old/pdf/test{}.pdf".format(img_idx), 'rb')).pages[0]
+pdf_page = PdfReader(open("pdf/test{}.pdf".format(img_idx), 'rb')).pages[0]
 pdf_shape = pdf_page.mediabox
 pdf_height = pdf_shape[3]-pdf_shape[1]
 pdf_width = pdf_shape[2]-pdf_shape[0]
@@ -13,7 +13,7 @@ pdf_width = pdf_shape[2]-pdf_shape[0]
 # Use camelot to extract table
 # Borderless table
 tables = camelot.read_pdf(
-    "table-extraction-old/pdf/test{}.pdf".format(img_idx), 
+    "pdf/test{}.pdf".format(img_idx), 
     flavor='stream', 
     edge_tol=1000, 
     row_tol=30, 
@@ -24,7 +24,7 @@ tables = camelot.read_pdf(
 # tables = camelot.read_pdf("table-extraction-old/pdf/test{}.pdf".format(img_idx), flavor='lattice', flag_size=True)
 
 # Save CSV file 
-tables.export('table-extraction-old/csv/camelot/test{}.csv'.format(img_idx), f='csv', compress=False) # json, excel, html, markdown, sqlite
+tables.export('csv/camelot/test{}.csv'.format(img_idx), f='csv', compress=False) # json, excel, html, markdown, sqlite
 
 # Get and Save table cell bounding box metadatas
 cell_metadata = []
@@ -37,7 +37,7 @@ for idx, table in enumerate(tables):
             print(cell)
             cell_metadata[idx].append({'x1': cell.x1, 'y1': cell.y1, 'x2': cell.x2, 'y2': cell.y2})
 
-with open('table-extraction-old/metadata/metadata{}.json'.format(img_idx), 'w') as f:
+with open('metadata/metadata{}.json'.format(img_idx), 'w') as f:
     json.dump(cell_metadata, f)
 
 # Visualize table structure

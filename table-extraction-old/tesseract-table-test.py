@@ -6,7 +6,7 @@ from wand.image import Image
 img_idx=1
 grid=False
 # skew image (wand library)
-with Image(filename='table-extraction-old/image/table/test{}.jpg'.format(img_idx)) as img:
+with Image(filename='image/table/test{}.jpg'.format(img_idx)) as img:
     img.deskew(0.4*img.quantum_range)
     rotated = np.array(img)
 
@@ -31,8 +31,8 @@ if not grid :
     for c in cnts:
         cv2.drawContours(result, [c], -1, (255,255,255), 5)
 
-cv2.imwrite('table-extraction-old/image/preprocess/test{}.png'.format(img_idx), result)
+cv2.imwrite('image/preprocess/test{}.png'.format(img_idx), result)
 
 pdf = pytesseract.image_to_pdf_or_hocr(result, lang='vie', extension='pdf', config='--psm 4')
-with open('table-extraction-old/pdf/test{}.pdf'.format(img_idx), 'w+b') as f:
+with open('pdf/test{}.pdf'.format(img_idx), 'w+b') as f:
     f.write(pdf) # pdf type is bytes by default

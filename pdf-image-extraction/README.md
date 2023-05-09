@@ -9,7 +9,9 @@ Chạy file pdf_downloader.ipynb để tiến hành tải dữ liệu PDF ta v�
 ## II, Chuyển đổi PDF thành danh sách ảnh trang
 - Cài thư viện pdf2image và poppler
 - Download PDF từ drive về máy và lưu trong folder pdf-image-extraction/pdf
-- Tạo folder pdf-image-extraction/image, chạy file image-extraction.py để tiến hành chuyển PDF thành danh sách ảnh, dữ liệu được lưu trữ theo dạng {tên công ty}/{số trang}.jpg
+- Tạo folder pdf-image-extraction/image
+- Vào terminal, nhập lệnh cd pdf-image-extraction 
+- Chạy file image-extraction.py để tiến hành chuyển PDF thành danh sách ảnh, dữ liệu được lưu trữ theo dạng {tên công ty}/{số trang}.jpg
 
 ⚠️ Lưu ý:
 - Cân nhắc số lượng PDF sử dụng để chuyển thành ảnh (100 PDF chuyển thành ảnh sử dụng khoảng 1GB)

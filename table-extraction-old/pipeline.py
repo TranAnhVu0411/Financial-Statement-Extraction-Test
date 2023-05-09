@@ -9,6 +9,7 @@ from vietocr.tool.config import Cfg
 from PIL import Image
 import pandas as pd
 import os
+from PyPDF2 import PdfReader
 
 import sys
 # Thay đổi đường dẫn đến CRAFT_pytorch
@@ -117,9 +118,14 @@ def ocr_table_structure(image, pdf_path):
         f.write(pdf) # pdf type is bytes by default
 
 def get_table_structure(pdf_path, grid=False):
+    pdf_page = PdfReader(open(pdf_path, 'rb')).pages[0]
+    pdf_shape = pdf_page.mediabox
+    pdf_height = pdf_shape[3]-pdf_shape[1]
+    pdf_width = pdf_shape[2]-pdf_shape[0]
+
     # Get table structure
     if not grid:
-        tables = camelot.read_pdf(pdf_path, flavor='stream', edge_tol=1000, row_tol=20, strip_text='.\n')
+        tables = camelot.read_pdf(pdf_path, flavor='stream', edge_tol=1000, row_tol=30, table_areas=['0,{},{},0'.format(int(pdf_height), int(pdf_width))], strip_text='.\n')
     else:
         tables = camelot.read_pdf(pdf_path, flavor='lattice')
 
@@ -256,7 +262,7 @@ def convert_table_structure_to_csv(image, table_box, ocr_detector, text_detector
     dataframe.to_csv(os.path.join(csv_path, '{}.csv'.format(name)), index=False)
 
 # if '__name__' == '__main__':
-img_idx = 1
+img_idx = 8
 image_path = 'image/table/test{}.jpg'.format(img_idx)
 pdf_path = 'pdf/test{}.pdf'.format(img_idx)
 csv_path = 'csv/pipeline'
@@ -279,7 +285,8 @@ detector = Predictor(config)
 
 # Load CRAFT model
 net = CRAFT()
-net.load_state_dict(copyStateDict(torch.load('/Users/trananhvu/Documents/GitHub/Financial-Statement-Extraction-Test/model/craft_mlt_25k.pth', map_location='cpu')))
+craft_model = '/Users/trananhvu/Documents/GitHub/Financial-Statement-Extraction-Test/model/craft_mlt_25k.pth'
+net.load_state_dict(copyStateDict(torch.load(craft_model, map_location='cpu')))
 net.eval()
 
 print('OCR CELL AND EXTRACT TO CSV')

@@ -9,6 +9,7 @@ Phần này tập trung vào tiền xử lý dữ liệu ảnh báo cáo tài ch
 Hướng dẫn sử dụng:
 - Cài thư viện Wand, matplotlib (pip install Wand)
 - Lưu ảnh muốn xử lý vào folder image dưới dạng test(index).jpg (Ví dụ: test1.jpg, test20.jpg)
+- Vào terminal, nhập lệnh cd preprocess-document
 - Chỉnh sửa img_idx theo index trong file preprocess.py, chạy file để thu được kết quả, kết quả được lưu trong result-preprocess
 
 Mô hình kiểm nghiệm kết quả: CRAFT - Text detection model

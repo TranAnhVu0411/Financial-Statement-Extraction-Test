@@ -48,5 +48,5 @@ time.sleep(10)
 driver.quit()
 
 import json
-with open('selenium-crawler/metadata/link_data.json', 'w') as f:
+with open('metadata/link_data.json', 'w') as f:
     json.dump(links, f)
