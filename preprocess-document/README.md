@@ -25,4 +25,7 @@ Chạy CRAFT - Text detection
 - Chạy script: python CRAFT_pytorch/test.py --trained_model=(Path to train model) --test_folder=result-preprocess --cuda=False (Ví dụ: python CRAFT_pytorch/test.py --trained_model=/Users/trananhvu/Documents/GitHub/Financial-Statement-Extraction-Test/model/craft_mlt_25k.pth --test_folder=result-preprocess --cuda=False)
 - Kết quả ở trong folder result
 
-Sẽ kiểm nghiệm sign detection sử dụng Signver sau (https://github.com/victordibia/signver)
+⚠️ Loại bỏ chữ ký đang có một số nhược điểm như:
+- Detect không hiệu quả
+- Có thể sẽ loại bỏ vùng text chứa trong box được detect
+Sẽ kiểm nghiệm yolov5 model cho sign detection (https://medium.com/red-buffer/signature-detection-and-localization-using-yolov5-algorithm-7176ed19fc8b) và Signver cho sign cleaning (https://github.com/victordibia/signver) (Hiện đang ở trong phần sign-detection-and remove)
