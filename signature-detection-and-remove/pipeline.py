@@ -19,7 +19,7 @@ detection_model = torch.hub.load(
     force_reload = True)
 
 img_path = '../preprocess-document/result-preprocess'
-img_name = 'test3removestamp.jpg'
+img_name = 'test6removestamp.jpg'
  
 img = cv2.imread(os.path.join(img_path, img_name))
 img_copy = img.copy()

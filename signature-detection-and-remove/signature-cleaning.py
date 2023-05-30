@@ -17,6 +17,8 @@ cleaner.load(cleaner_model_path)
 signatures_path = 'signature-crop'
 signatures = []
 for i in os.listdir(signatures_path):
+    if i=='.DS_Store':
+        continue
     signatures.append(cv2.imread(os.path.join(signatures_path, i)))
 
 # Feature extraction with resnet model
