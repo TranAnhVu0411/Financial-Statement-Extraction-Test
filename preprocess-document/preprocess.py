@@ -4,10 +4,10 @@ from wand.image import Image as wand_image
 from PIL import Image, ImageEnhance
 # import sys
 # sys.path.insert(0, 'sign_detection')
-from sign_detection.loader import make_mask, show_image
-from sign_detection.extract import extract
-from sign_detection.crop import run
-from sign_detection.judge import judge
+from signature_detection.loader import make_mask, show_image
+from signature_detection.extract import extract
+from signature_detection.crop import run
+from signature_detection.judge import judge
 
 # Use cv2 image format
 

@@ -17,12 +17,12 @@ Mô hình kiểm nghiệm kết quả: CRAFT - Text detection model
 Đánh giá kết quả thông qua số lượng từ mà mô hình CRAFT bắt được (Mô hình bắt được càng ít nhiễu càng tốt)
 
 Cài đặt CRAFT - Text detection: 
-- clone https://github.com/clovaai/CRAFT-pytorch và tải pretrained model và lưu vào folder model (Đã có sẵn) (⚠️ Lưu ý chỉnh sửa code theo trang: https://github.com/clovaai/CRAFT-pytorch/issues/191), đổi tên CRAFT-pytorch thành CRAFT_pytorch (Phục vụ cho table-extraction-old)
+- clone https://github.com/clovaai/CRAFT-pytorch và tải pretrained model và lưu vào folder model (⚠️ Lưu ý chỉnh sửa code theo trang: https://github.com/clovaai/CRAFT-pytorch/issues/191), đổi tên CRAFT-pytorch thành CRAFT_pytorch (Phục vụ cho table-extraction-old)
 - Cài các thư viện theo requirements.txt (pip install lần lượt, không được chạy pip install -r requirements.txt)
 
 Chạy CRAFT - Text detection
 - Chạy cd preprocess-document
-- Chạy script: python CRAFT_pytorch/test.py --trained_model=(Path to train model) --test_folder=result-preprocess --cuda=False (Ví dụ: python CRAFT_pytorch/test.py --trained_model=/Users/trananhvu/Documents/GitHub/Financial-Statement-Extraction-Test/model/craft_mlt_25k.pth --test_folder=result-preprocess --cuda=False)
+- Chạy script: python CRAFT_pytorch/test.py --trained_model=model/craft_mlt_25k.pth --test_folder=result-preprocess --cuda=False
 - Kết quả ở trong folder result
 
 ⚠️ Loại bỏ chữ ký đang có một số nhược điểm như:
