@@ -1,0 +1,668 @@
+[
+  {
+    "text_coordinates": [
+      620,
+      2157,
+      135,
+      39
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          135,
+          36
+        ],
+        "text": "năm 2022"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      207,
+      2153,
+      403,
+      43
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          403,
+          41
+        ],
+        "text": "TP Hà Chí Minh noàv 29 tháno"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      206,
+      2051,
+      556,
+      95
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          556,
+          53
+        ],
+        "text": "Nguyễn Chí Dũng Pho Tổng Giám đốc"
+      },
+      {
+        "line_coordinates": [
+          0,
+          53,
+          556,
+          33
+        ],
+        "text": "Số Giấy CNĐKHN kiểm toán: 0100-2018-008-1"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      908,
+      2050,
+      559,
+      95
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          559,
+          52
+        ],
+        "text": "Nguyễn hoàng yến - Kiếm toán viên"
+      },
+      {
+        "line_coordinates": [
+          0,
+          52,
+          559,
+          34
+        ],
+        "text": "Số Giấy CNĐKHN kiểm toán: 0088-2018-008-1"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      207,
+      1831,
+      556,
+      65
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          556,
+          55
+        ],
+        "text": "Cống ty TNHH Kiểm toán và Tur vấn A8C"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      206,
+      1602,
+      1342,
+      222
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          1342,
+          46
+        ],
+        "text": "Ý kiến của Kiểm toán viên"
+      },
+      {
+        "line_coordinates": [
+          0,
+          46,
+          1342,
+          33
+        ],
+        "text": "Theo ý kiền của chúng tôi, Báo cáo tài chính hợp nhất đã phản ánh trung thực và hợp lý, trên các khía cạnh"
+      },
+      {
+        "line_coordinates": [
+          0,
+          79,
+          1342,
+          33
+        ],
+        "text": "Trọng yếu tình hình tài chính hợp nhất của Tập đoàn tại ngày tại ngày 31 tháng 12 năm 2021, cũng như kết quả"
+      },
+      {
+        "line_coordinates": [
+          0,
+          112,
+          1342,
+          34
+        ],
+        "text": "thuật thuận hoạt động kinh doanh hợp nhất và tình hình lưu chuyên tiền tệ hợp nhất cho năm tài chính kết thúc cùng ngày,"
+      },
+      {
+        "line_coordinates": [
+          0,
+          146,
+          1342,
+          33
+        ],
+        "text": "Thuật thuận phù hợp với các chuẩn mực kế toán Việt Nam, Chế độ Kể toản doanh nghiệp Việt Nam và các quy định pháp."
+      },
+      {
+        "line_coordinates": [
+          0,
+          179,
+          1342,
+          34
+        ],
+        "text": "có liên qucn đến việc lập và trình bày Báo cáo tài chính hợp nhất"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      207,
+      1508,
+      1340,
+      89
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          1340,
+          47
+        ],
+        "text": "Chúng tôi tín tưởng rằng các bằng chứng kiểm toán mà chúng tôi đã thu thập được là đầy đủ và thích hợp để làm"
+      },
+      {
+        "line_coordinates": [
+          0,
+          47,
+          1340,
+          34
+        ],
+        "text": "cơ sở cho ý kiên kiếm toán của chúng tôi"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      207,
+      1188,
+      1342,
+      323
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          1342,
+          47
+        ],
+        "text": "Công việc kiểm toán bao gồm thực hiện các thủ tục nhằm thu thập các bằng chứng kiểm toán về các số liệu và"
+      },
+      {
+        "line_coordinates": [
+          0,
+          47,
+          1342,
+          33
+        ],
+        "text": "Các thuyết minh trên Báo cáo tài chính hợp nhất: Các thủ tục kiếm toán được lựa chọn dựa trên xét đoán của kiêm"
+      },
+      {
+        "line_coordinates": [
+          0,
+          80,
+          1342,
+          33
+        ],
+        "text": "Trong thế toán viên, bao gồm đánh giá rúi ro có sai sót trọng yếu trong Báo cáo tài chính hợp nhất do gian lận hoặc nhằm"
+      },
+      {
+        "line_coordinates": [
+          0,
+          113,
+          1342,
+          33
+        ],
+        "text": "Thuận lần, Khi thực hiện đánh giá các rùi ro này, kiểm toán viên đã xem xét kiếm soát nội bộ của Tập đoàn liên quan"
+      },
+      {
+        "line_coordinates": [
+          0,
+          146,
+          1342,
+          35
+        ],
+        "text": "đến việc lập và trình bày Báo cáo tài chính hợp nhất trung thực, hợp lý nhằm thiết kế các thủ tục kiểm toán phù"
+      },
+      {
+        "line_coordinates": [
+          0,
+          181,
+          1342,
+          33
+        ],
+        "text": "hợp với tình hình thực tế, tuy nhiên không nhằm mục đích đưa ra, kiền về hiệu quả của kiềm soát nội bộ của"
+      },
+      {
+        "line_coordinates": [
+          0,
+          214,
+          1342,
+          34
+        ],
+        "text": "Tập đoàn, Công việc kiểm toán cũng bao gồm đánh giá tính thích hợp của các chính sách kế toán được áp dụng"
+      },
+      {
+        "line_coordinates": [
+          0,
+          248,
+          1342,
+          33
+        ],
+        "text": "Các thuật thuật thuật và tính hợp lý của các ước tính kế toán của Ban Tổng Giám đồc cũng như đánh giá việc trình bày tổng thể Báo"
+      },
+      {
+        "line_coordinates": [
+          0,
+          281,
+          1342,
+          34
+        ],
+        "text": "cáo tài chính hợp nhất"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      208,
+      968,
+      1342,
+      223
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          1342,
+          46
+        ],
+        "text": "Trách nhiệm của Kiểm toán viên"
+      },
+      {
+        "line_coordinates": [
+          0,
+          46,
+          1342,
+          34
+        ],
+        "text": "Trách nhiệm của chúng tôi là đưa ra ý kiến về Báo cáo tài chính hợp nhất dựa trên kết quả của cuộc kiểm toán."
+      },
+      {
+        "line_coordinates": [
+          0,
+          80,
+          1342,
+          34
+        ],
+        "text": "Chúng tối đã tiền hành kiêm toán theo các chuẩn mực kiểm toán Việt Nam. Các chuẩn mực này yêu cầu chúng"
+      },
+      {
+        "line_coordinates": [
+          0,
+          114,
+          1342,
+          34
+        ],
+        "text": "thuật thuật tôi tuân thủ chuẩn mực và các quy định về đạo đức nghề nghiệp, lập kế hoạch và thực hiện cuộc kiềm toán đề"
+      },
+      {
+        "line_coordinates": [
+          0,
+          148,
+          1342,
+          33
+        ],
+        "text": "Các thuật đạt được sự đảm bảo hợp lý về việc liệu Bảo cáo tài chính hợp nhất của Tập đoàn có còn sai sốt trọng yêu hay"
+      },
+      {
+        "line_coordinates": [
+          0,
+          181,
+          1342,
+          34
+        ],
+        "text": "không"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      208,
+      742,
+      1341,
+      221
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          1341,
+          46
+        ],
+        "text": "Trách nhiệm của Ban Tổng giám đốc"
+      },
+      {
+        "line_coordinates": [
+          0,
+          46,
+          1341,
+          34
+        ],
+        "text": "Ban Tổng Giám đốc Công ty chịu trách nhiệm về việc lập và trình bày trung thực và hợp lý Báo cáo tài chính"
+      },
+      {
+        "line_coordinates": [
+          0,
+          80,
+          1341,
+          33
+        ],
+        "text": "Thuật thuật thuật hợp nhất của Tập đoàn theo các chuẩn mực kế toán Việt Nam, Chế độ Kế toán doanh nghiệp Việt Nam và các"
+      },
+      {
+        "line_coordinates": [
+          0,
+          113,
+          1341,
+          34
+        ],
+        "text": "quy định pháp lý có liên quan đến việc lập và trình bày Báo cáo tài chính hợp nhất và chịu trách nhiệm về kiểm"
+      },
+      {
+        "line_coordinates": [
+          0,
+          147,
+          1341,
+          33
+        ],
+        "text": "soát nội bộ mà Ban Tổng Giám đốc xác định là cân thiết để đảm bảo cho việc lập và trình bày Báo cáo tài chính"
+      },
+      {
+        "line_coordinates": [
+          0,
+          180,
+          1341,
+          34
+        ],
+        "text": "hợp nhất không có sai sót trọng yêu do gian lận hoặc nhằm lấn"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      210,
+      547,
+      1341,
+      190
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          1341,
+          48
+        ],
+        "text": "Chúng tôi đã kiểm toán Báo cáo tài chính hợp nhất kèm theo của Công ty Cổ phần Văn hóa Phương Nam (sau"
+      },
+      {
+        "line_coordinates": [
+          0,
+          48,
+          1341,
+          33
+        ],
+        "text": "\"đây gọi tắt là \"Công ty\"\") và các công ty con (gọi chung là \"\"Tập đoàn\"\"), được lập ngày 29 tháng 3 năm 2022, từ"
+      },
+      {
+        "line_coordinates": [
+          0,
+          81,
+          1341,
+          34
+        ],
+        "text": "Trang 05 đến trang 43, bao gồm Bảng cân đôi kế toán hợp nhất tại ngày 31 tháng 12 năm 2021, Báo cáo kết quả"
+      },
+      {
+        "line_coordinates": [
+          0,
+          115,
+          1341,
+          34
+        ],
+        "text": "Thuật thuận hoạt động kinh doanh hợp nhất, Báo cáo lưu chuyển tiền tệ hợp nhất cho năm tài chính kết thúc cùng ngày và"
+      },
+      {
+        "line_coordinates": [
+          0,
+          149,
+          1341,
+          32
+        ],
+        "text": "Bản thuyết minh Báo cáo tài chính hợp nhất"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      209,
+      453,
+      139,
+      48
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          139,
+          44
+        ],
+        "text": "Kính gửi:"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      360,
+      447,
+      925,
+      83
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          925,
+          45
+        ],
+        "text": "CÁC CỔ ĐÔNG, HỘI ĐỒNG QUẢN TRỊ VÀ BAN TỔNG GIÁM ĐỐC"
+      },
+      {
+        "line_coordinates": [
+          0,
+          45,
+          925,
+          32
+        ],
+        "text": "CÔNG TY CỔ PHẦN VĂN HÓA PHƯƠNG NAM"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      524,
+      363,
+      712,
+      74
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          712,
+          55
+        ],
+        "text": "BÁO CÁO KIỂM TOÁN ĐỘC LÂP"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      211,
+      294,
+      278,
+      50
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          278,
+          44
+        ],
+        "text": "Số: 1.0702/22/TC-AC"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      1247,
+      238,
+      188,
+      34
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          188,
+          33
+        ],
+        "text": "www.a- com.vn"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      1246,
+      98,
+      297,
+      120
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          297,
+          55
+        ],
+        "text": "bakertilly"
+      },
+      {
+        "line_coordinates": [
+          0,
+          55,
+          297,
+          60
+        ],
+        "text": "AEC"
+      }
+    ]
+  },
+  {
+    "text_coordinates": [
+      219,
+      92,
+      987,
+      181
+    ],
+    "lines": [
+      {
+        "line_coordinates": [
+          0,
+          0,
+          987,
+          51
+        ],
+        "text": "A8C AUDITING AND CONSULTING CO. LTD."
+      },
+      {
+        "line_coordinates": [
+          0,
+          51,
+          987,
+          41
+        ],
+        "text": "Head Office : 02 Truong Son ST, Ward 2, Tan Binh Dist, Ho Chi Minh City Vietnam"
+      },
+      {
+        "line_coordinates": [
+          0,
+          92,
+          987,
+          28
+        ],
+        "text": "Branch in Ha Noi - 40 Giang Vo St, Dong Da Dist, Ha Noi City, Vietnam"
+      },
+      {
+        "line_coordinates": [
+          0,
+          120,
+          987,
+          28
+        ],
+        "text": "\"The Con The Branch In Nha Trang: LotSTHOGAO),S.N.12 Le Hong Phong IIIUiban Leea Phuoc Hai Wad, Nha Trang Chy Vetram Tei 484 (025"
+      },
+      {
+        "line_coordinates": [
+          0,
+          148,
+          987,
+          28
+        ],
+        "text": "Branch In Can Tho - 15-13 Vo Nguyen Giap S1, Cai Rang Dist, Can Tho City, Vietnam"
+      }
+    ]
+  }
+]
