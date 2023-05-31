@@ -16,6 +16,7 @@ Cài đặt thư viện: pytesseract, camelot (camelot-py), vietocr, PyPDF2, yam
 - Chỉnh sửa img_idx theo index trong file camelot-test.py, chạy file để thu được csv được trích xuất từ thư viện Camelot được lưu trong folder csv/camelot và file metadata chứa bounding box của cell được lưu trong folder metadata
 
 ### Hướng dẫn sử dụng: Chạy thử nghiệm theo pipeline đề xuất
+- Tải và chuyển model craft_mlt_25k.pth vào folder model (Tham khảo trong preprocess-document)
 - Vào terminal, nhập lệnh cd table-extraction-old
-- Chỉnh sửa img_idx và craft_model (absolute path) trong pipeline.py
+- Chỉnh sửa img_idx trong pipeline.py
 - Chạy pipeline.py, kết quả được lưu trong folder csv/pipeline

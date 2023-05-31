@@ -18,7 +18,6 @@ from CRAFT_pytorch.craft import CRAFT
 from CRAFT_pytorch.imgproc import resize_aspect_ratio, normalizeMeanVariance, cvt2HeatmapImg
 from CRAFT_pytorch.craft_utils import getDetBoxes, adjustResultCoordinates
 from CRAFT_pytorch.test import copyStateDict
-from collections import OrderedDict
 import torch
 from torch.autograd import Variable
 
@@ -285,7 +284,7 @@ detector = Predictor(config)
 
 # Load CRAFT model
 net = CRAFT()
-craft_model = '/Users/trananhvu/Documents/GitHub/Financial-Statement-Extraction-Test/model/craft_mlt_25k.pth'
+craft_model = 'model/craft_mlt_25k.pth'
 net.load_state_dict(copyStateDict(torch.load(craft_model, map_location='cpu')))
 net.eval()
 
